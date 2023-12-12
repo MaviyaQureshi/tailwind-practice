@@ -52,7 +52,7 @@ const NavBar = () => {
                         <i className={icon}></i>
                     </div>
 
-                    <div id="menu" className={`${visibility} bg-color-primary-dark h-[100vh] absolute inset-0`}>
+                    <div id="menu" className={`${visibility} bg-color-primary-dark h-[100vh] absolute inset-0 z-10`}>
                         <ul className='h-full grid place-items-center py-20'>
                             <li><a href="#home" className='hyperlink' onClick={menuHide}>Home</a></li>
                             <li><a href="#features" className='hyperlink' onClick={menuHide}>Features</a></li>
